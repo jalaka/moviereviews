@@ -35,7 +35,7 @@ jobs:
           done
           # Print the modified variable
           echo "$modified_variable"
-      - name: Add maskaaa
+      - name: Add maskaaaa
         env:
           MY_SECRET: ${{ secrets }}
         run: |
