@@ -16,7 +16,7 @@ jobs:
     environment: Vienna
 
     steps:
-      - name: Add mask
+      - name: Add maska
         run: |
           echo "::add-mask::${{ secrets.FAVOURITE }}"
 
